@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Document</title>
+</head>
+<body>
+    <table boarder="1">
+        <form>
+            <tr>
+                <th colspan="2"> </th> <h2>Fill the form</h2>
+            </tr>
+        </form>
+
+        <tr>
+            <td>First Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type=password></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td>
+                <input type="tel" id="phone" name="phone" placeholder="123-345-6789"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+            </td>
+        </tr>
+        <tr>
+            <td>Nationality</td>
+            <td><select name="Nationality">
+                <option value="select">select</option>
+                <option value="Africa">Africa</option>
+                <option value="India">India</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+            </select> </td>
+        </tr>
+        <tr>
+            <td>University</td>
+            <td><select name="University">
+                <option value="select">Select</option>
+                <option value="Don Bosco">Don Bosco</option>
+                <option value="Jain University">Jain University</option>
+                <option value="PES">PES</option>
+                <option value="RV">RV</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td><input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+                <input type="radio" name="Gender">Others</td>
+        </tr>
+        <tr>
+            <td>
+                <td>
+                    <button type="button">Submit</button>
+                </td>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
